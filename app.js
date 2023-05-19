@@ -5,8 +5,11 @@
 var person = {
     name: 'John',
     age: 19,
-    hobbies: ['Coding', 'Photography']
+    hobbies: ['Coding', 'Photography'],
+    role: [2, 'author']
 };
+person.role.push('admin');
+// person.role[1] = 10;
 var favoriteActivities;
 favoriteActivities = ['Sports'];
 console.log(person.name);
